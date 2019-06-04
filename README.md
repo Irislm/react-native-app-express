@@ -20,7 +20,7 @@ If success, app will be open in your default simulator.You will see a lot of exa
 - [TwitterLoadingAnimate](#-twitter-loading-animate)
 - [Video](#-video)
 
-## FadeInAnimate
+## <div id="fade-in-animate">FadeInAnimate</div>
 
 简单的透明度变化动画。https://reactnative.cn/docs/animations/
 
