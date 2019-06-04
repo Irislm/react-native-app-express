@@ -12,7 +12,7 @@ If success, app will be open in your default simulator.You will see a lot of exa
 
 # react-native-components
 
-- [FadeInAnimate](#-fade-in-animate)
+- [FadeInAnimate](#fade-in-animate)
 - [LoadingAnimate](#-loading-animate)
 - [ModalManager](#-modal-manager)
 - [Popover](#-popover)
