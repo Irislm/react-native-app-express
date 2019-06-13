@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
 });
 export default class VideoComp extends Component {
   state = {
-    currentTime: 0,
+    // currentTime: 0,
     duration: 0,
   }
 
