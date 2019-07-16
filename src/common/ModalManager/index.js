@@ -3,7 +3,7 @@
  * @Date: 2019-05-17 17:00:45
  * @Description: 支持React native element的写法和 js class反射调用
  * @Last Modified by: lm
- * @Last Modified time: 2019-05-22 11:26:49
+ * @Last Modified time: 2019-07-05 10:10:37
  */
 
 import React from 'react';
@@ -77,7 +77,7 @@ class CustomizedModal extends React.Component {
       <Modal
         animationType="none"
         transparent
-        modalVisible={visible}
+        visible={visible}
       >
         <View style={styles.modal}>
           <View style={styles.modalBody}>

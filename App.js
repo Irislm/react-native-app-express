@@ -17,6 +17,7 @@ import SpringAnimateExample from './src/SprintAnimateExample';
 import FadeInAnimateExample from './src/FadeInAnimateExample';
 import LoadingAnimateExample from './src/LoadingAnimateExample';
 import VideoExample from './src/VideoExample';
+import SwiperExample from './src/VerticalSwiperExample';
 
 const AppNavigator = createStackNavigator({
   home: Home,
@@ -26,6 +27,7 @@ const AppNavigator = createStackNavigator({
   fadeInAnimateExample: FadeInAnimateExample,
   loadingAnimateExample: LoadingAnimateExample,
   videoExample: VideoExample,
+  swiperExample: SwiperExample,
 });
 
 export default createAppContainer(AppNavigator);

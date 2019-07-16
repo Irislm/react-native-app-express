@@ -13,6 +13,7 @@
     "react/prop-types": 0,
     "react/destructuring-assignment": 0,
     "max-len": [1, 120],
-    "no-plusplus": 0
+    "no-plusplus": 0,
+    "react/no-array-index-key": 0,
   }
 }

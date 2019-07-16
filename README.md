@@ -19,6 +19,7 @@ If success, app will be open in your default simulator.You will see a lot of exa
 - [SpringAnimate](#spring-animate)
 - [TwitterLoadingAnimate](#twitter-loading-animate)
 - [Video](#video)
+- [VerticalSwiper](#verticalSwiper)
 
 ## <div id="fade-in-animate">FadeInAnimate</div>
 
@@ -44,3 +45,6 @@ https://facebook.github.io/react-native/blog/2018/01/18/implementing-twitters-ap
 
 ## <div id="video">Video</div>
 react-native-video基础上封装了开始/停止/播放进度（即将支持）
+
+## <div id="verticalSwiper">VerticalSwiper</div>
+用动画自主完成的vertical方向的轮播
