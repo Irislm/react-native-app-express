@@ -57,6 +57,10 @@ export default class Home extends Component {
       id: 6,
       routeName: 'swiperExample',
       title: 'Swiper Example',
+    }, {
+      id: 7,
+      routeName: 'horizontalSwiperExample',
+      title: 'Horizontal Swiper Example',
     }];
     return (
       <TwitterLoadingAnimate>

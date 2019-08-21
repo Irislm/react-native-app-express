@@ -18,6 +18,7 @@ import FadeInAnimateExample from './src/FadeInAnimateExample';
 import LoadingAnimateExample from './src/LoadingAnimateExample';
 import VideoExample from './src/VideoExample';
 import SwiperExample from './src/VerticalSwiperExample';
+import HorizontalSwiperExample from './src/HorizontalSwiperExample';
 
 const AppNavigator = createStackNavigator({
   home: Home,
@@ -28,6 +29,7 @@ const AppNavigator = createStackNavigator({
   loadingAnimateExample: LoadingAnimateExample,
   videoExample: VideoExample,
   swiperExample: SwiperExample,
+  horizontalSwiperExample: HorizontalSwiperExample,
 });
 
 export default createAppContainer(AppNavigator);
