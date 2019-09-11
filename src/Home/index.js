@@ -61,6 +61,10 @@ export default class Home extends Component {
       id: 7,
       routeName: 'horizontalSwiperExample',
       title: 'Horizontal Swiper Example',
+    }, {
+      id: 8,
+      routeName: 'reduxExample',
+      title: 'Redux Example',
     }];
     return (
       <TwitterLoadingAnimate>

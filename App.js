@@ -10,6 +10,9 @@ import {
   createStackNavigator,
   createAppContainer,
 } from 'react-navigation';
+import { Provider } from 'react-redux';
+import { createStore, combineReducers } from 'redux';
+import React from 'react';
 import Home from './src/Home';
 import AlertExample from './src/AlertExample';
 import PopoverExample from './src/PopoverExample';
@@ -19,6 +22,9 @@ import LoadingAnimateExample from './src/LoadingAnimateExample';
 import VideoExample from './src/VideoExample';
 import SwiperExample from './src/VerticalSwiperExample';
 import HorizontalSwiperExample from './src/HorizontalSwiperExample';
+import ReduxExample from './src/ReduxExample';
+import reduxExample from './src/ReduxExample/reducers';
+import extraReducers from './src/SprintAnimateExample/reducers';
 
 const AppNavigator = createStackNavigator({
   home: Home,
@@ -30,6 +36,17 @@ const AppNavigator = createStackNavigator({
   videoExample: VideoExample,
   swiperExample: SwiperExample,
   horizontalSwiperExample: HorizontalSwiperExample,
+  reduxExample: ReduxExample,
 });
 
-export default createAppContainer(AppNavigator);
+const AppContainer = createAppContainer(AppNavigator);
+
+const store = createStore(combineReducers({
+  reduxExample,
+  extraReducers,
+}));
+export default () => (
+  <Provider store={store}>
+    <AppContainer />
+  </Provider>
+);
