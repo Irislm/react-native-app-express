@@ -1,5 +1,7 @@
+import { CHANGE_PASSENGER } from '../actions/actionTypes';
+
 export default {
-  changePassenger(state, { payload = {} }) {
+  [CHANGE_PASSENGER](state, { payload = {} }) {
     const temp = [...state];
     return temp.map((v) => {
       if (v.id === payload.id) {

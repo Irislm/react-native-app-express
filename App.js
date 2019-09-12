@@ -11,8 +11,9 @@ import {
   createAppContainer,
 } from 'react-navigation';
 import { Provider } from 'react-redux';
-import { createStore, combineReducers } from 'redux';
+import { createStore, combineReducers, applyMiddleware } from 'redux';
 import React from 'react';
+import thunk from 'redux-thunk';
 import Home from './src/Home';
 import AlertExample from './src/AlertExample';
 import PopoverExample from './src/PopoverExample';
@@ -44,7 +45,7 @@ const AppContainer = createAppContainer(AppNavigator);
 const store = createStore(combineReducers({
   reduxExample,
   extraReducers,
-}));
+}), applyMiddleware(thunk));
 export default () => (
   <Provider store={store}>
     <AppContainer />

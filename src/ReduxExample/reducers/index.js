@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
 import passengers from './passengers';
 import pageHeader from './pageHeader';
+import posts from './posts';
+import selectedSubreddit from './selectedSubreddit';
 
 const selectReducers = (reducers, initialState) => (state = initialState, action) => {
   const func = reducers[action.type];
@@ -27,4 +29,10 @@ export default combineReducers({
   pageHeader: selectReducers(pageHeader, {
     title: 'iris',
   }),
+  posts: selectReducers(posts, {
+    isFetching: false,
+    didInvalidate: false,
+    items: [],
+  }),
+  selectedSubreddit: selectReducers(selectedSubreddit, 'reactjs'),
 });
