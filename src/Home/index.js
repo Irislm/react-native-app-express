@@ -65,6 +65,14 @@ export default class Home extends Component {
       id: 8,
       routeName: 'reduxExample',
       title: 'Redux Example',
+    }, {
+      id: 9,
+      routeName: 'portalExample',
+      title: 'Portal Example（命令式装载组件）',
+    }, {
+      id: 10,
+      routeName: 'carousel',
+      title: 'Carousel Example',
     }];
     return (
       <TwitterLoadingAnimate>

@@ -16,9 +16,9 @@ const styles = StyleSheet.create({
 
 
 export default class PopoverExample extends Component {
-  static navigationOptions = {
-    title: 'Popover',
-  };
+  // static navigationOptions = {
+  //   title: 'Popover',
+  // };
 
   state = {
     isVisible: false,

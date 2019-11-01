@@ -25,7 +25,9 @@ import SwiperExample from './src/VerticalSwiperExample';
 import HorizontalSwiperExample from './src/HorizontalSwiperExample';
 import ReduxExample from './src/ReduxExample';
 import reduxExample from './src/ReduxExample/reducers';
+import PortalExample from './src/PortalExample';
 import extraReducers from './src/SprintAnimateExample/reducers';
+import CarouselExample from './src/CarouselExample';
 
 const AppNavigator = createStackNavigator({
   home: Home,
@@ -38,6 +40,8 @@ const AppNavigator = createStackNavigator({
   swiperExample: SwiperExample,
   horizontalSwiperExample: HorizontalSwiperExample,
   reduxExample: ReduxExample,
+  portalExample: PortalExample,
+  carousel: CarouselExample,
 });
 
 const AppContainer = createAppContainer(AppNavigator);

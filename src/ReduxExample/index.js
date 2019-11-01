@@ -8,9 +8,9 @@ import {
 import {
   connect,
 } from 'react-redux';
-import fetch from 'cross-fetch';
+import { bindActionCreators } from 'redux';
 import {
-  changePassenger, fetchPosts, requestPosts, receivePosts,
+  changePassenger, fetchPosts,
 } from './actions/actionCreator';
 
 
@@ -64,16 +64,9 @@ const mapStateToProps = ({ reduxExample } = {}, ownProps) => ({
   reduxExample,
 });
 
-const mapDispatchToProps = dispatch => ({
-  onChangePassenger: (payload) => {
-    dispatch(changePassenger(payload));
-  },
-  onFetchPosts: (payload) => {
-    dispatch(requestPosts(payload));
-    return fetch(`http://www.reddit.com/r/${payload}.json`)
-      .then(response => response.json())
-      .then(json => dispatch(receivePosts(json)));
-  },
-});
+const mapDispatchToProps = dispatch => bindActionCreators({
+  onChangePassenger: payload => changePassenger(payload),
+  onFetchPosts: payload => fetchPosts(payload),
+}, dispatch);
 
 export default connect(mapStateToProps, mapDispatchToProps)(ReduxExample);
