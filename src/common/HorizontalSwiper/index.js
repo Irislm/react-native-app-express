@@ -1,3 +1,10 @@
+/*
+ * @Author: lm
+ * @Date: 2019-12-18 15:11:31
+ * @Description: 横向轮播
+ * @Last Modified by:   lm
+ * @Last Modified time: 2019-12-18 15:11:31
+ */
 import React, { Component } from 'react';
 import {
   StyleSheet,

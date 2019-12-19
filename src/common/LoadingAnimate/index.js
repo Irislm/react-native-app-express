@@ -1,3 +1,10 @@
+/*
+ * @Author: lm
+ * @Date: 2019-12-18 13:49:19
+ * @Description: 圆形加载条
+ * @Last Modified by: lm
+ * @Last Modified time: 2019-12-18 13:52:32
+ */
 import React from 'react';
 import {
   Animated, Easing, View, Text,
@@ -6,8 +13,8 @@ import {
 
 const loadingImg = require('../../Images/ic_monitor_status_circle_zx.png');
 
-const WIDTH = 50;
-const HEIGHT = 50;
+const WIDTH = 100;
+const HEIGHT = 100;
 
 const styles = StyleSheet.create({
   loadingIcon: (width = WIDTH, height = HEIGHT) => ({
@@ -64,7 +71,7 @@ class LoadingAnimate extends React.Component {
           }}
           source={loadingImg}
         />
-        <View style={styles.loadingIcon()}><Text>hh</Text></View>
+        <View style={styles.loadingIcon()}><Text>加载中...</Text></View>
       </View>
     );
   }

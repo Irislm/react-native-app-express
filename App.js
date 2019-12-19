@@ -21,13 +21,12 @@ import SpringAnimateExample from './src/SprintAnimateExample';
 import FadeInAnimateExample from './src/FadeInAnimateExample';
 import LoadingAnimateExample from './src/LoadingAnimateExample';
 import VideoExample from './src/VideoExample';
-import SwiperExample from './src/VerticalSwiperExample';
+import VerticalSwiperExample from './src/VerticalSwiperExample';
 import HorizontalSwiperExample from './src/HorizontalSwiperExample';
 import ReduxExample from './src/ReduxExample';
 import reduxExample from './src/ReduxExample/reducers';
 import PortalExample from './src/PortalExample';
 import extraReducers from './src/SprintAnimateExample/reducers';
-import CarouselExample from './src/CarouselExample';
 
 const AppNavigator = createStackNavigator({
   home: Home,
@@ -37,11 +36,10 @@ const AppNavigator = createStackNavigator({
   fadeInAnimateExample: FadeInAnimateExample,
   loadingAnimateExample: LoadingAnimateExample,
   videoExample: VideoExample,
-  swiperExample: SwiperExample,
+  verticalSwiperExample: VerticalSwiperExample,
   horizontalSwiperExample: HorizontalSwiperExample,
   reduxExample: ReduxExample,
   portalExample: PortalExample,
-  carousel: CarouselExample,
 });
 
 const AppContainer = createAppContainer(AppNavigator);
@@ -50,6 +48,7 @@ const store = createStore(combineReducers({
   reduxExample,
   extraReducers,
 }), applyMiddleware(thunk));
+
 export default () => (
   <Provider store={store}>
     <AppContainer />

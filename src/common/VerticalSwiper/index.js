@@ -1,3 +1,10 @@
+/*
+ * @Author: lm
+ * @Date: 2019-12-18 15:00:59
+ * @Description: 纵向轮播
+ * @Last Modified by: lm
+ * @Last Modified time: 2019-12-18 15:01:25
+ */
 import React, { Component } from 'react';
 import {
   StyleSheet,
@@ -40,11 +47,10 @@ class VerticalSwiper extends Component {
   }
 
   componentDidMount() {
-    this.showHeadBar();
+    this.startAnimation();
   }
 
-  showHeadBar() {
-    const count = this.props.dataSource ? this.props.dataSource.length : this.props.count;
+  startAnimation() {
     Animated.timing(this.translateY, {
       toValue: -(this.props.rowHeight) * this.index, // 20为文本View的高度
       duration: 300, // 动画时间
@@ -60,7 +66,7 @@ class VerticalSwiper extends Component {
           };
         }, () => {
           this.index++;
-          this.showHeadBar(this.index, count);
+          this.startAnimation();
         });
       }
     });

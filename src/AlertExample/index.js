@@ -5,6 +5,7 @@ import {
 } from 'react-native';
 import React, { Component } from 'react';
 import ModalManager from '../common/ModalManager';
+import CustomizedModal from './CustomizedModal';
 
 const styles = StyleSheet.create({
   wrapper: {
@@ -65,8 +66,12 @@ class SimpleAlertExampleBlock extends Component {
       { text: '确认', onPress: () => console.log('OK Pressed!') }],
   )
 
-  toggleShowModal = () => {
-    ModalManager.show();
+  hideModal = () => {
+    ModalManager.destroy();
+  }
+
+  handleShowModal = () => {
+    ModalManager.show(<CustomizedModal onCancel={this.hideModal} />);
   }
 
   render() {
@@ -83,7 +88,7 @@ class SimpleAlertExampleBlock extends Component {
         </TouchableHighlight>
         <TouchableOpacity
           style={styles.wrapper}
-          onPress={this.toggleShowModal}
+          onPress={this.handleShowModal}
         >
           <Text style={styles.button}>show modal</Text>
         </TouchableOpacity>
