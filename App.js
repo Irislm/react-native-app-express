@@ -27,6 +27,7 @@ import ReduxExample from './src/ReduxExample';
 import reduxExample from './src/ReduxExample/reducers';
 import PortalExample from './src/PortalExample';
 import extraReducers from './src/SprintAnimateExample/reducers';
+import PopLayerPortalExample from './src/PopLayerPortalExample';
 
 const AppNavigator = createStackNavigator({
   home: Home,
@@ -40,6 +41,7 @@ const AppNavigator = createStackNavigator({
   horizontalSwiperExample: HorizontalSwiperExample,
   reduxExample: ReduxExample,
   portalExample: PortalExample,
+  popLayerPortalExample: PopLayerPortalExample,
 });
 
 const AppContainer = createAppContainer(AppNavigator);

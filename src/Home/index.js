@@ -69,6 +69,10 @@ export default class Home extends Component {
       id: 9,
       routeName: 'portalExample',
       title: 'Portal Example（命令式装载组件）',
+    }, {
+      id: 10,
+      routeName: 'popLayerPortalExample',
+      title: 'PopLayer + Portal Example',
     }];
     return (
       <TwitterLoadingAnimate>
