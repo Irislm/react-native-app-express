@@ -73,6 +73,10 @@ export default class Home extends Component {
       id: 10,
       routeName: 'popLayerPortalExample',
       title: 'PopLayer + Portal Example',
+    // }, {
+    //   id: 11,
+    //   routeName: 'bindingXExample',
+    //   title: 'Alibaba bindingx Example',
     }];
     return (
       <TwitterLoadingAnimate>
