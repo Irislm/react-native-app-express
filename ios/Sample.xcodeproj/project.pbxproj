@@ -54,18 +54,26 @@
 		16481486385D0392A98AB138 /* Pods-Sample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Sample-tvOSTests/Pods-Sample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* Sample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* Sample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D99BE3A3D7C20A2D52B4453 /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample/Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
 		3B45DEE767108C263ABBED6F /* Pods-Sample-SampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-SampleTests.debug.xcconfig"; path = "Target Support Files/Pods-Sample-SampleTests/Pods-Sample-SampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D26C82659EA3F4F35B8E28B /* Pods-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample/Pods-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		4891F7EAFF045C4D2B114212 /* libPods-Sample-SampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sample-SampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A69F99270A0D6E7B4BCCCF /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.release.xcconfig"; path = "Target Support Files/Pods-Sample/Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
+		764354C1B702EC26B0E2B6FA /* Pods-Sample-SampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-SampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample-SampleTests/Pods-Sample-SampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		85D99A16E14A9904A9C9A678 /* Pods-Sample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Sample-tvOS/Pods-Sample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		8671B5077C05778391E365D8 /* Pods-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.debug.xcconfig"; path = "Target Support Files/Pods-Sample/Pods-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		921CF6B57BEC29C91E70AB25 /* libPods-Sample-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sample-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6854C546587916150A7A67 /* Pods-Sample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample-tvOS/Pods-Sample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		9FC8401C71F880DB929C0464 /* Pods-Sample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Sample-tvOSTests/Pods-Sample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		ADC7756F8DBC372E40340476 /* Pods-Sample-SampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-SampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample-SampleTests/Pods-Sample-SampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B0FA9C53B793FB2255F2B681 /* Pods-Sample-SampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-SampleTests.release.xcconfig"; path = "Target Support Files/Pods-Sample-SampleTests/Pods-Sample-SampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD5E06694729FF36FC89A7D0 /* Pods-Sample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample-tvOSTests/Pods-Sample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		C86BD9495BD8768D36D07DF1 /* Pods-Sample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample-tvOS/Pods-Sample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		E771F357FA9D9D4891609F32 /* Pods-Sample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Sample-tvOS/Pods-Sample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		EC623F8058B15B77BBBA32F2 /* libPods-Sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F805CE230461FBF0E9020EBA /* Pods-Sample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample-tvOSTests/Pods-Sample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F9EC1AD158606F450CA09D8D /* libPods-Sample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -133,6 +141,14 @@
 				E771F357FA9D9D4891609F32 /* Pods-Sample-tvOS.release.xcconfig */,
 				16481486385D0392A98AB138 /* Pods-Sample-tvOSTests.debug.xcconfig */,
 				9FC8401C71F880DB929C0464 /* Pods-Sample-tvOSTests.release.xcconfig */,
+				3D26C82659EA3F4F35B8E28B /* Pods-Sample.debug.xcconfig */,
+				2D99BE3A3D7C20A2D52B4453 /* Pods-Sample.release.xcconfig */,
+				ADC7756F8DBC372E40340476 /* Pods-Sample-SampleTests.debug.xcconfig */,
+				764354C1B702EC26B0E2B6FA /* Pods-Sample-SampleTests.release.xcconfig */,
+				9B6854C546587916150A7A67 /* Pods-Sample-tvOS.debug.xcconfig */,
+				C86BD9495BD8768D36D07DF1 /* Pods-Sample-tvOS.release.xcconfig */,
+				F805CE230461FBF0E9020EBA /* Pods-Sample-tvOSTests.debug.xcconfig */,
+				BD5E06694729FF36FC89A7D0 /* Pods-Sample-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -582,7 +598,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B45DEE767108C263ABBED6F /* Pods-Sample-SampleTests.debug.xcconfig */;
+			baseConfigurationReference = ADC7756F8DBC372E40340476 /* Pods-Sample-SampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -605,7 +621,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0FA9C53B793FB2255F2B681 /* Pods-Sample-SampleTests.release.xcconfig */;
+			baseConfigurationReference = 764354C1B702EC26B0E2B6FA /* Pods-Sample-SampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -625,7 +641,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8671B5077C05778391E365D8 /* Pods-Sample.debug.xcconfig */;
+			baseConfigurationReference = 3D26C82659EA3F4F35B8E28B /* Pods-Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -652,7 +668,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68A69F99270A0D6E7B4BCCCF /* Pods-Sample.release.xcconfig */;
+			baseConfigurationReference = 2D99BE3A3D7C20A2D52B4453 /* Pods-Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -673,7 +689,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85D99A16E14A9904A9C9A678 /* Pods-Sample-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 9B6854C546587916150A7A67 /* Pods-Sample-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -701,7 +717,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E771F357FA9D9D4891609F32 /* Pods-Sample-tvOS.release.xcconfig */;
+			baseConfigurationReference = C86BD9495BD8768D36D07DF1 /* Pods-Sample-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -729,7 +745,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16481486385D0392A98AB138 /* Pods-Sample-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = F805CE230461FBF0E9020EBA /* Pods-Sample-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -756,7 +772,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FC8401C71F880DB929C0464 /* Pods-Sample-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = BD5E06694729FF36FC89A7D0 /* Pods-Sample-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
