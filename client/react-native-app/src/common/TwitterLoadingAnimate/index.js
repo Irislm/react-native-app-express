@@ -9,6 +9,7 @@ const maskImg = require('../../Images/twitter.png');
 const styles = StyleSheet.create({
   fullScreen: {
     flex: 1,
+    backgroundColor: 'white',
   },
   fullScreenBlueLayer: {
     ...StyleSheet.absoluteFill,

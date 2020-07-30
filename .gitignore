@@ -1,3 +1,8 @@
+package-lock.json
+npm-debug.log
+yarn-error.log
+node_modules/
+
 # OSX
 #
 .DS_Store
@@ -20,6 +25,7 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
+project.xcworkspace
 
 # Android/IntelliJ
 #
@@ -31,17 +37,14 @@ local.properties
 
 # node.js
 #
-node_modules/
+client/react-native-app/node_modules/
 npm-debug.log
 yarn-error.log
-package-lock.json
-dist
 
 # BUCK
-buck-out/
-\.buckd/
+client/react-native-app/buck-out/
+client/react-native-app/\.buckd/
 *.keystore
-!debug.keystore
 
 # fastlane
 #
@@ -54,8 +57,12 @@ buck-out/
 */fastlane/Preview.html
 */fastlane/screenshots
 
-# Bundle artifact
+# Bundle artifacts
 *.jsbundle
 
 # CocoaPods
-/ios/Pods/
+client/react-native-app/ios/Pods/
+
+# Expo
+client/react-native-app/\.expo/*
+client/react-native-app/web-build/

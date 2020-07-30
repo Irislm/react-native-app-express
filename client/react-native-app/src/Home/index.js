@@ -2,8 +2,6 @@
  * Sample React Native App
  * https://github.com/facebook/react-native
  *
- * @format
- * @flow
  */
 
 import React, { Component } from 'react';
@@ -77,6 +75,10 @@ export default class Home extends Component {
     //   id: 11,
     //   routeName: 'bindingXExample',
     //   title: 'Alibaba bindingx Example',
+    }, {
+      id: 12,
+      routeName: 'localServer',
+      title: 'Local server start（本地启动服务，发起请求）',
     }];
     return (
       <TwitterLoadingAnimate>

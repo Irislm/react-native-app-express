@@ -1,0 +1,51 @@
+{
+  "name": "MyReactNativeExamples",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "clean": "watchman watch-del-all && rm -rf package-lock.json && rm -rf node_modules && rm -rf $TMPDIR/metro-* && rm -rf $TMPDIR/haste-map-* && npm install --registry=https://registry.npm.taobao.org && npm run start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "buildts": "echo '编译typescript文件。。。请稍等' && tsc"
+  },
+  "dependencies": {
+    "@ant-design/react-native": "^3.2.0",
+    "@react-native-community/masked-view": "0.0.5",
+    "@react-navigation/native": "^5.1.5",
+    "@react-navigation/stack": "^5.2.10",
+    "cross-fetch": "^3.0.4",
+    "prop-types": "^15.7.2",
+    "react": "16.11.0",
+    "react-native": "0.62.0",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-reanimated": "^1.8.0",
+    "react-native-root-siblings": "^3.2.0",
+    "react-native-safe-area-context": "^0.7.3",
+    "react-native-screens": "^2.4.0",
+    "react-native-video": "^4.4.1",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.2",
+    "@babel/runtime": "7.6.2",
+    "@types/react": "^16.9.34",
+    "@types/react-native": "^0.62.2",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "24.9.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-native": "^3.7.0",
+    "metro-react-native-babel-preset": "0.58.0",
+    "typescript": "^3.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
