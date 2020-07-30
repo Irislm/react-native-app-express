@@ -3,6 +3,8 @@ npm-debug.log
 yarn-error.log
 node_modules/
 
+yarn.lock
+
 # OSX
 #
 .DS_Store
