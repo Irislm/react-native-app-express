@@ -2,6 +2,7 @@ package-lock.json
 npm-debug.log
 yarn-error.log
 node_modules/
+Podfile.lock
 
 yarn.lock
 
@@ -68,3 +69,4 @@ client/react-native-app/ios/Pods/
 # Expo
 client/react-native-app/\.expo/*
 client/react-native-app/web-build/
+

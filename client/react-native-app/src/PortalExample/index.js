@@ -1,8 +1,5 @@
 import React from 'react';
-import { Text, View } from 'react-native';
-import {
-  Button,
-} from '@ant-design/react-native';
+import { Text, View, TouchableOpacity } from 'react-native';
 import Portal from '../common/Portal';
 import Message from './Message';
 
@@ -11,7 +8,7 @@ export default class PortalExample extends React.Component {
     return (
       <Portal.Provider>
         <View style={{ justifyContent: 'center', alignItems: 'center' }}>
-          <Button
+          <TouchableOpacity
             onPress={() => {
               Message.show({
                 title: 'hello ha',
@@ -21,8 +18,8 @@ export default class PortalExample extends React.Component {
               });
             }}
           >
-            <Text>Open Portal</Text>
-          </Button>
+            <Text>click me Open Portal</Text>
+          </TouchableOpacity>
         </View>
       </Portal.Provider>
     );

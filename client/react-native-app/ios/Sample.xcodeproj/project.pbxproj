@@ -598,7 +598,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADC7756F8DBC372E40340476 /* Pods-Sample-SampleTests.debug.xcconfig */;
+			baseConfigurationReference = 3B45DEE767108C263ABBED6F /* Pods-Sample-SampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -621,7 +621,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 764354C1B702EC26B0E2B6FA /* Pods-Sample-SampleTests.release.xcconfig */;
+			baseConfigurationReference = B0FA9C53B793FB2255F2B681 /* Pods-Sample-SampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -641,7 +641,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D26C82659EA3F4F35B8E28B /* Pods-Sample.debug.xcconfig */;
+			baseConfigurationReference = 8671B5077C05778391E365D8 /* Pods-Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -668,7 +668,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D99BE3A3D7C20A2D52B4453 /* Pods-Sample.release.xcconfig */;
+			baseConfigurationReference = 68A69F99270A0D6E7B4BCCCF /* Pods-Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -689,7 +689,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B6854C546587916150A7A67 /* Pods-Sample-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 85D99A16E14A9904A9C9A678 /* Pods-Sample-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -717,7 +717,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C86BD9495BD8768D36D07DF1 /* Pods-Sample-tvOS.release.xcconfig */;
+			baseConfigurationReference = E771F357FA9D9D4891609F32 /* Pods-Sample-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -745,7 +745,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F805CE230461FBF0E9020EBA /* Pods-Sample-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 16481486385D0392A98AB138 /* Pods-Sample-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -772,7 +772,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD5E06694729FF36FC89A7D0 /* Pods-Sample-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 9FC8401C71F880DB929C0464 /* Pods-Sample-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
